@@ -1,0 +1,70 @@
+-I: Adding /data01/software/amber20/dat/leap/prep to search path.
+-I: Adding /data01/software/amber20/dat/leap/lib to search path.
+-I: Adding /data01/software/amber20/dat/leap/parm to search path.
+-I: Adding /data01/software/amber20/dat/leap/cmd to search path.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap.in
+----- Source: /data01/software/amber20/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /data01/software/amber20/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /data01/software/amber20/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /data01/software/amber20/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /data01/software/amber20/dat/leap/lib/amino12.lib
+Loading library: /data01/software/amber20/dat/leap/lib/aminoct12.lib
+Loading library: /data01/software/amber20/dat/leap/lib/aminont12.lib
+Loading PDB file: ./modelx.pdb
+  Added missing heavy atom: .R<SER 47>.A<C 10>
+  Added missing heavy atom: .R<SER 47>.A<O 11>
+  total atoms in file: 2437
+  Leap added 151 missing atoms according to residue templates:
+       2 Heavy
+       149 H / lone pairs
+Checking 'prot'....
+
+/data01/software/amber20/bin/teLeap: Warning!
+The unperturbed charge of the unit (3.000000) is not zero.
+Checking parameters for unit 'prot'.
+Checking for bond parameters.
+Checking for angle parameters.
+check:  Warnings: 1
+Unit is OK.
+Using ArgH and AspGluO modified Bondi2 radii
+Checking Unit.
+
+/data01/software/amber20/bin/teLeap: Warning!
+The unperturbed charge of the unit (3.000000) is not zero.
+
+/data01/software/amber20/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 512 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CLEU	1
+	NGLN	1
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 2; Notes = 1.
