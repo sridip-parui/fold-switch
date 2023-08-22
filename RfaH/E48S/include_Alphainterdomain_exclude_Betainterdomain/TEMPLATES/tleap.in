@@ -1,0 +1,6 @@
+source /data01/software/amber20/dat/leap/cmd/oldff/leaprc.ff99SB
+prot = loadpdb min2.pdb
+check prot
+set default PBradii mbondi3
+saveamberparm  prot  model2.top  model2.crd
+quit
